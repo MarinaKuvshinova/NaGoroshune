@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+	<title>На горошине</title>
+	<link media="all" rel="stylesheet" href="css/fancybox.css">
+	<link media="all" rel="stylesheet" href="css/jquery-ui-1.9.2.custom.min.css">
+	<link media="all" rel="stylesheet" href="css/animate.css">
+	<link media="all" rel="stylesheet" href="css/all.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.main.js"></script>
+	<script src="js/jquery.inview.min.js"></script>
+	<!--[if lt IE 9]><link rel="stylesheet" href="css/ie.css" /><![endif]-->
+	<!--[if IE]><script " src="js/ie.js"></script><![endif]-->
+</head>
+<body class="catalog">
+	<div id="wrapper">
+		<div class="wrapper-holder">
+			<header id="header">
+				<div class="add-menu">
+					<a href="#" class="opener"></a>
+					<div class="footer-holder">
+						<div class="footer-col">
+							<a href="#" class="opener">Каталог</a>
+							<ul>
+								<li><a href="#">Новинки</a></li>
+								<li><a href="#">Акции и Скидки</a></li>
+								<li><a href="#">Хиты продаж</a></li>
+							</ul>
+						</div>
+						<div class="footer-col">
+							<span class="opener">Покупателю</span>
+							<ul>
+								<li><a href="#">Система скидок</a></li>
+								<li><a href="#">Способы оплаты</a></li>
+								<li><a href="#">Доставка</a></li>
+								<li><a href="#">Гарантия и возврат</a></li>
+								<li><a href="#">Для оптовиков</a></li>
+							</ul>
+						</div>
+						<div class="footer-col">
+							<span  class="opener">Компания</span>
+							<ul>
+								<li><a href="#">о компании</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Договор оферты</a></li>
+							</ul>
+						</div>
+						<div class="footer-col">
+							<span class="opener">Мы в соцсетях</span>
+							<ul>
+								<li><a href="#">facebook</a></li>
+								<li><a href="#">vkontakte</a></li>
+								<li><a href="#">instagram</a></li>
+								<li><a href="#">twitter</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="search">
+					<a href="#" class="opener"></a>
+					<div class="holder">
+						<form action="#">
+							<fieldset><input type="text" placeholder="Наприпер, полотенце..." /><input type="submit" value="button" /></fieldset>
+						</form>
+						<a href="#" class="close opener"></a>
+					</div>
+				</div>
+				<a href="#" class="enter">войти</a>
+				<a href="#" class="basket">3</a>
+				<strong class="logo"><a href="#">На горошине</a></strong>
+				<nav id="nav">
+					<a href="#" class="opener"><span></span><span></span><span></span><span></span><span></span><span></span></a>
+					<ul>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Акции и новинки</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">доставка и оплата</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="intro">
+				<img src="images/intro2.jpg" alt="image description">
+				<h1>каталог</h1>
+			</div>
+			<div id="main">
+				<aside id="sidebar">
+					<ul class="breadcrumbs">
+						<li><a href="#">главная</a></li>
+						<li><a href="#">каталог</a></li>
+						<li>постельное белье</li>
+					</ul>
+					<div class="sidebar-box">
+						<span class="title"><h2 class="opener">Каталог</h2></span>
+						<ul class="main-nav box">
+							<li><a href="#">Подушки и одеяла</a></li>
+							<li class="active">
+								<a href="#">Постельное белье</a>
+								<ul>
+									<li><a href="#">Наволочки</a></li>
+									<li><a href="#">Пододеяльник</a></li>
+									<li><a href="#">Простыни</a></li>
+									<li><a href="#">комплекты</a></li>
+									<li class="active"><a href="#">Махровые простыни</a></li>
+									<li><a href="#">Наматрасники</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Столовое белье</a></li>
+							<li><a href="#">Для ванной</a></li>
+							<li><a href="#">Пледы</a></li>
+							<li><a href="#">Покрывала</a></li>
+							<li><a href="#">Чехлы для дивана</a></li>
+							<li><a href="#">Интерьер</a></li>
+							<li><a href="#">Домашняя одежда</a></li>
+							<li><a href="#">Сувениры</a></li>
+						</ul>
+					</div>
+					<div class="sidebar-box">
+						<span class="title"><h2 class="opener">фильтры</h2> <a class="reset" href="#">Сбросить все</a></span>
+						<form class="filter-box box">
+							<fieldset>
+								<div class="filter active">
+									<a href="#" class="opener">цена <span class="button"><span></span><span></span></span></a>
+									<div class="slider-range box">
+										<div id="slider"></div>
+										<div class="row">
+											<input type="text" class="sliderValue" data-index="0" value="360" />
+											<span>-</span>
+											<input type="text" class="sliderValue" data-index="1" value="36000" />
+										</div>
+									</div>
+								</div>
+								<div class="filter active">
+									<a href="#" class="opener">Комплект <span class="button"><span></span><span></span></span></a>
+									<ul class="box">
+										<li><input type="checkbox" id="label1_1" /><label for="label1_1">1,5 спальный <span>264</span></label></li>
+										<li><input type="checkbox" checked="checked" id="label1_2" /><label for="label1_2">2 спальный (2 нав) <span>128</span></label></li>
+										<li><input type="checkbox" id="label1_3" /><label for="label1_3">2 спальный (2 нав) на резинке <span>26</span></label></li>
+										<li><input type="checkbox" id="label1_4" /><label for="label1_4">2 спальный (4 нав) <span>140</span></label></li>
+										<li><input type="checkbox" id="label1_5" /><label for="label1_5">Евро <span>203</span></label></li>
+										<li><input type="checkbox" id="label1_6" /><label for="label1_6">Евро на резинке <span>27</span></label></li>
+										<li><input type="checkbox" id="label1_7" /><label for="label1_7">Семейный/Дуэт <span>221</span></label></li>
+									</ul>
+								</div>
+								<div class="filter active">
+									<a href="#" class="opener">состав <span class="button"><span></span><span></span></span></a>
+									<ul class="box">
+										<li><input type="checkbox" id="label2_1" /><label for="label2_1">Сатин <span>27</span></label></li>
+										<li><input type="checkbox" id="label2_2" /><label for="label2_2">Перкаль <span>17</span></label></li>
+										<li><input type="checkbox" id="label2_3" /><label for="label2_3">Поплин <span>2</span></label></li>
+										<li><input type="checkbox" id="label2_4" /><label for="label2_4">Бязь люкс <span>27</span></label></li>
+									</ul>
+								</div>
+								<div class="filter active">
+									<a href="#" class="opener">Цвет <span class="button"><span></span><span></span></span></a>
+									<ul class="box color">
+										<li><span class="while" ><input type="checkbox" /></span></li>
+										<li><span class="yellow"><input type="checkbox" /></span></li>
+										<li><span class="orang"><input type="checkbox" /></span></li>
+										<li><span class="red"><input type="checkbox" /></span></li>
+										<li><span class="green"><input type="checkbox" /></span></li>
+										<li><span class="blue"><input type="checkbox" /></span></li>
+										<li><span class="pink"><input type="checkbox" /></span></li>
+										<li><span class="black"><input type="checkbox" /></span></li>
+									</ul>
+								</div>
+								<div class="filter">
+									<a href="#" class="opener">Рисунок <span class="button"><span></span><span></span></span></a>
+								</div>
+								<div class="filter">
+									<a href="#" class="opener">Коллекция <span class="button"><span></span><span></span></span></a>
+								</div>
+								<div class="filter">
+									<a href="#" class="opener">Производители <span class="button"><span></span><span></span></span></a>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</aside>
+				<div id="content">
+					<div class="page_view">
+						<form action="#" class="sort">
+							<fieldset>
+								<select>
+									<option>по возрастанию цены</option>
+									<option>по возрастанию цены2</option>
+								</select>
+							</fieldset>
+						</form>
+						<ul class="view">
+							<li class="active"><a class="big" href="#"></a></li>
+							<li><a class="small" href="#"></a></li>
+						</ul>
+						<ul class="pagination-list">
+							<li><a href="#">20</a></li>
+							<li><a href="#">50</a></li>
+							<li class="active">100</li>
+							<li><a href="#">все</a></li>
+						</ul>
+					</div>
+					<section class="promo-container promo-container-small">
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img3.jpg" alt="image description">
+									<span class="top">хит</span>
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name"><a href="#">Постельное белье «Сен-Мишель»</a></span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img4.jpg" alt="image description">
+									<span class="top discount">скидка</span>
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name"><a href="#">Постельное белье «Сен-Мишель»</a></span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img5.jpg" alt="image description">
+									<span class="top stock">акция</span>
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name"><a href="#">Постельное белье «Сен-Мишель»</a></span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img3.jpg" alt="image description">
+									<span class="top new">Новое</span>
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name">Постельное белье «Сен-Мишель»</span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img4.jpg" alt="image description">
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name">Постельное белье «Сен-Мишель»</span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img5.jpg" alt="image description">
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name">Постельное белье «Сен-Мишель»</span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img3.jpg" alt="image description">
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name">Постельное белье «Сен-Мишель»</span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img4.jpg" alt="image description">
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name">Постельное белье «Сен-Мишель»</span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+						<article class="promo-row">
+							<div class="picture">
+								<a href="#popup1" class="lightbox">
+									<img src="images/img5.jpg" alt="image description">
+									<span class="button">быстрый просмотр</span>
+								</a>
+							</div>
+							<div class="text">
+								<div class="title-row">
+									<span class="name">Постельное белье «Сен-Мишель»</span>
+									<span class="price">2 350</span>
+								</div>
+							</div>
+						</article>
+					</section>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="wrapper-holder">
+				<strong class="add-logo"><a href="#">На горошине</a></strong>
+				<div class="info-footer">
+					<p>Официальный дилер крупнейших<br /> текстильных компаний и торговых марок</p>
+					<p>Местонахождение офиса магазина улица и дом</p>
+					<span class="phone">+7 800 543-45-45</span>
+					<span><a href="mailto:info@nagorohe.ru">info@nagorohe.ru</a></span>
+				</div>
+				<div class="footer-holder">
+					<div class="footer-col">
+						<a href="#" class="opener">Каталог</a>
+						<ul>
+							<li><a href="#">Новинки</a></li>
+							<li><a href="#">Акции и Скидки</a></li>
+							<li><a href="#">Хиты продаж</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<span class="opener">Покупателю</span>
+						<ul>
+							<li><a href="#">Система скидок</a></li>
+							<li><a href="#">Способы оплаты</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Гарантия и возврат</a></li>
+							<li><a href="#">Для оптовиков</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<span  class="opener">Компания</span>
+						<ul>
+							<li><a href="#">о компании</a></li>
+							<li><a href="#">Сертификаты</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Договор оферты</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<span class="opener">Мы в соцсетях</span>
+						<ul>
+							<li><a href="#">facebook</a></li>
+							<li><a href="#">vkontakte</a></li>
+							<li><a href="#">instagram</a></li>
+							<li><a href="#">twitter</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="copyright">
+					<p> &copy; 2017 «На Горошине»</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="popup-holder">
+		<div id="popup1" class="lightbox promo-row">
+			<div class="slideshow">
+				<div class="mask">
+					<div class="slide"><img src="images/img6.jpg" alt="image description"></div>
+					<div class="slide"><img src="images/img6.jpg" alt="image description"></div>
+					<div class="slide"><img src="images/img6.jpg" alt="image description"></div>
+				</div>
+				<span class="top">хит</span>
+				<div class="pagination"></div>
+			</div>
+			<div class="text">
+				<div class="title-row">
+					<span class="name"><a href="#">Постельное белье «Сен-Мишель»</a></span>
+					<span class="row">
+						<span class="firm-logo"><img src="images/ico1.png" alt="image description"></span>
+						<span class="code">Артикул: 848541-043</span>
+					</span>
+					<p>Постельное бельe  производится из бязи-люкс. Бязь-люкс - ткань более мягкая, лучше впитывает влагу и имеет высокую плотность, так как пряжа производится из более высоких сортов хлопка.</p>
+				</div>
+				<form action="#" class="row-form">
+					<fieldset>
+						<div class="footer-columns">
+							<div class="column">
+								<div class="col">
+									<span class="title">размер</span>
+									<div class="select size">
+										<select>
+											<option>1.5-спальное</option>
+											<option>2 спальный</option>
+										</select>
+									</div>
+								</div>
+								<div class="col">
+									<span class="title">Цвет</span>
+									<ul class="color">
+										<li><span class="while" ><input type="radio" name="radio1" /></span></li>
+										<li><span class="cream"><input type="radio" name="radio1" /></span></li>
+										<li><span class="grey"><input type="radio" checked="checked" name="radio1" /></span></li>
+										<li><span class="dark-cream"><input type="radio" name="radio1" /></span></li>
+										<li><span class="cream"><input type="radio" name="radio1" /></span></li>
+									</ul>
+								</div>
+								<div class="col">
+									<span class="title">количество</span>
+									<div class="select amount">
+										<select>
+											<option>1</option>
+											<option>2</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="column">
+								<div class="col">
+									<span class="title">в наличии</span>
+									<ul class="in_stock">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li class="empty"></li>
+									</ul>
+								</div>
+								<div class="col">
+									<span class="title">комплект</span>
+									<dl class="set">
+										<dt>наволочки:</dt>
+										<dd>70х70 см</dd>
+										<dt>пододеяльник:</dt>
+										<dd>175х215 см</dd>
+										<dt>простыня:</dt>
+										<dd>220х240 см</dd>
+									</dl>
+								</div>
+								<div class="col">
+									<span class="title">состав</span>
+									<p>100% хлопок</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<span class="price">17 350</span>
+							<input type="button" value="в корзину" />
+						</div>
+					</fieldset>
+				</form>
+				<div class="share-row">
+					<span>поделиться</span>
+					<ul>
+						<li><a href="#" class="f">f</a></li>
+						<li><a href="#" class="vk">vk</a></li>
+						<li><a href="#" class="tw">tw</a></li>
+						<li><a href="#" class="in">in</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
